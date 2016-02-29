@@ -1,0 +1,234 @@
+body{
+	font-family: verdana, geneva;
+	background-image: url("bkgrnd.png"); 
+	background-repeat: repeat; 
+	max-width: 100%;
+    overflow-x: hidden;
+    background-color: #53baee;
+}
+
+
+h1 {
+	color: #72FF92;
+	font-size: 50px;
+	/*border-bottom: 2px solid white;*/
+	
+}
+h2 {
+	position: absolute; 
+   	top: 300px; 
+   	left: 0; 
+   	width: 100%; 
+	/*border-bottom: 2px solid white;*/
+	
+}
+#about a{
+	color: blue;
+}
+#bar{
+	background:#000000;
+    content:"";
+    height:75px;
+    position:fixed;
+    bottom:0px;
+    left:0;
+    right:0;
+}
+#yellow{
+	background: rgb(30, 30, 30);
+	background: rgba(30, 30, 30, 0.95);
+    content:"";
+    height:600px;
+    position:absolute;
+    top:950px;
+    left:0;
+    right:0;
+    display:block;
+}
+#green{
+	background: rgb(0, 0, 30);
+	background: rgba(0, 0, 30, 0.95);
+    content:"";
+    height:600px;
+    position:absolute;
+    top:1550px;
+    left:0;
+    right:0;
+    display:block;
+}
+
+#orange{
+	background: rgb(100, 100, 100);
+	background: rgba(100, 100, 100, 0.95);
+    content:"";
+    height:300px;
+    position:absolute;
+    top:2150px;
+    left:0;
+    right:0;
+    display:block;
+}
+#introPara{
+	font-size: 25px;
+	color: #FFFFFF;
+}
+#singleitalics{
+	font-size: 25px;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#top{
+   	width: 100%;
+   	color: white;
+   	position: relative;
+   	left:-200px;
+   	
+}
+#left{
+	width: 100%;
+   	color: white;
+   	position: relative;
+   	left: 0px;
+   	
+}
+
+#middle{
+	width: 100%;
+   	color: white;
+   	position: relative;
+   	left: 100px;
+  
+}
+#right{
+	width: 100%;
+   	color: white;
+   	position: relative;
+   	left: 200px;
+  
+}
+#mainphoto{
+	position: absolute; 
+   	top: -73px; 
+   	left: -20px; 
+
+}
+#firstp{
+	text-align: left;
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+	font-weight: lighter;
+	position: absolute; 
+	color:white; 
+	top: 50px;
+   	left: 400px; 
+   	width: 100%;
+}
+
+#secondp{
+	text-align: left;
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+	font-weight: lighter;
+	position: relative; 
+	color:white; 
+	top: 150px;
+   	left: 400px; 
+   	width: 70%;
+}
+#thirdp{
+	text-align: left;
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+	font-weight: lighter;
+	position: relative; 
+	color:white; 
+	top:150px;
+	left:50px;
+	width: 90%;
+}
+#contactP{
+	text-align: left;
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+	font-weight: lighter;
+	position: relative; 
+	color:white; 
+	top:100px;
+	left:100px;
+	width: 90%;
+}
+.firstt{
+	position: absolute; 
+	color: #ffffff; 
+   	left: 400px; 
+   	width: 100%;
+}
+
+.firstty{
+	position: absolute; 
+	color: #ffffff; 
+   	left: 400px; 
+   	width: 100%;
+}
+
+.secondt{
+	position: absolute;  
+   	left: 50px; 
+   	width: 100%;
+}
+#newboard{
+	position: relative;
+	top: 25px;
+	left: 25px;
+
+}
+a{
+	color: white;
+}
+.paraClass{
+	font-size: 15px;
+	color: #FFFFFF;
+	font-style: italic;
+
+}
+.underline{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.image{
+	position: relative; 
+  	width: 100%; /* for IE 6 */
+}
+.Fixed
+{
+	position: fixed;
+}
+h2 span.spacer {
+   padding:0 5px;
+}
+h5 span.spacer {
+   padding:500 5px;
+}
+
+h2 span { 
+   color: white; 
+   font: bold 48px/90px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+h3 span{
+
+}
+h4{
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+
+}
+h5 span{
+   color: white; 
+   font: bold 24px/48px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   padding: 10px; 
+}
