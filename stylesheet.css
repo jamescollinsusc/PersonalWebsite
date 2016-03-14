@@ -2,6 +2,7 @@ body{
 	font-family: verdana, geneva;
 	background-image: url("bkgrnd.png"); 
 	background-repeat: repeat; 
+	color: white
 	max-width: 100%;
     overflow-x: hidden;
     background-color: #53baee;
@@ -28,7 +29,7 @@ h2 {
 #bar{
 	background:#000000;
     content:"";
-    height:75px;
+    height:50px;
     position:fixed;
     bottom:0px;
     left:0;
@@ -38,12 +39,13 @@ h2 {
 	background: rgb(30, 30, 30);
 	background: rgba(30, 30, 30, 0.95);
     content:"";
-    height:600px;
+    height:700px;
     position:absolute;
     top:950px;
     left:0;
     right:0;
     display:block;
+    color: white;
 }
 #green{
 	background: rgb(0, 0, 30);
@@ -51,10 +53,11 @@ h2 {
     content:"";
     height:600px;
     position:absolute;
-    top:1550px;
+    top:1650px;
     left:0;
     right:0;
     display:block;
+    color: white;
 }
 
 #orange{
@@ -63,7 +66,7 @@ h2 {
     content:"";
     height:300px;
     position:absolute;
-    top:2150px;
+    top:2250px;
     left:0;
     right:0;
     display:block;
@@ -142,8 +145,20 @@ h2 {
 	color:white; 
 	top:150px;
 	left:50px;
+	width: 65%;
+}
+
+.proj{
+	text-align: left;
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+	font-weight: lighter;
+	position: relative; 
+	color:white; 
+	top:30px;
+	left:50px;
 	width: 90%;
 }
+
 #contactP{
 	text-align: left;
 	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
@@ -175,8 +190,12 @@ h2 {
 }
 #newboard{
 	position: relative;
-	top: 25px;
-	left: 25px;
+	top: 1400px;
+	right: 50px;
+	height: 200px;
+	width: 300px;
+	border-style: solid;
+	border-color: #f40a9f;
 
 }
 a{
@@ -188,6 +207,15 @@ a{
 	font-style: italic;
 
 }
+
+.projtitle{
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+	position: relative;
+	font-size: 24px;
+	top: 75px;
+	left: 50px;
+}
+
 .underline{
 	text-decoration: underline;
 	font-weight: bold;
